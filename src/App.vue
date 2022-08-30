@@ -1,15 +1,13 @@
 <template>
-  
+  <Navbar />
 </template>
 <script>
+import Navbar from "./components/Header/NavbarComp.vue";
 export default {
   name: "App",
+  components: { Navbar },
 };
 </script>
 <style lang="scss">
-.slider {
-  height: 100vh;
-  width: 100%;
-}
 </style>
 <!-- <router-view/> -->
