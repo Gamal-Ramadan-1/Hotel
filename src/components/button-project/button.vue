@@ -1,5 +1,5 @@
 <template>
-  <button class="btn">
+  <button class="btn text-capitalize px-5 py-3 m-4">
     <span>{{ title }}</span>
   </button>
 </template>
@@ -16,8 +16,6 @@ export default {
 .btn {
   background-color: red;
   color: white;
-  text-transform: uppercase;
-  padding: 15px;
   border-radius: 0px;
   border: none;
   position: relative;
