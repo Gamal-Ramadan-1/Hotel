@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import Slider from "@/components/Slider/Slider.vue";
+import Slider from "@/components/Slider-Home/Slider.vue";
 // @ is an alias to /src
 export default {
   name: "HomeView",

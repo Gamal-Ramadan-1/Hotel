@@ -22,32 +22,40 @@
       >
         <ul class="navbar-nav text-uppercase fw-bold">
           <li class="nav-item">
-            <router-link class="nav-link px-3 home" tag="a" to="/"
+            <router-link class="nav-link px-3 home" id="nav-link" tag="a" to="/"
               >Home</router-link
             >
           </li>
           <li class="nav-item">
-            <router-link class="nav-link px-3" tag="a" to="/about"
+            <router-link class="nav-link px-3" id="nav-link" tag="a" to="/about"
               >about</router-link
             >
           </li>
           <li class="nav-item">
-            <router-link class="nav-link px-3" tag="a" to="/rooms"
+            <router-link class="nav-link px-3" tag="a" to="/rooms" id="nav-link"
               >rooms</router-link
             >
           </li>
           <li class="nav-item">
-            <router-link class="nav-link px-3" tag="a" to="/reseto"
+            <router-link
+              class="nav-link px-3"
+              tag="a"
+              to="/reseto"
+              id="nav-link"
               >reseto & bar</router-link
             >
           </li>
           <li class="nav-item">
-            <router-link class="nav-link px-3" tag="a" to="/blog"
+            <router-link class="nav-link px-3" tag="a" to="/blog" id="nav-link"
               >bolg</router-link
             >
           </li>
           <li class="nav-item">
-            <router-link class="nav-link px-3" tag="a" to="/contact"
+            <router-link
+              class="nav-link px-3"
+              tag="a"
+              to="/contact"
+              id="nav-link"
               >contact</router-link
             >
           </li>
@@ -60,6 +68,12 @@
 <script>
 export default {
   name: "NavbarComp",
+  methods: {
+    LinkColorOnActive() {
+      let item = document.getElementById("nav-link");
+      item.style.color = "white";
+    },
+  },
 };
 </script>
 <style lang="scss" scoped>
@@ -68,6 +82,7 @@ export default {
   position: absolute;
   top: 30px;
   width: 100%;
+  z-index: 1;
 }
 .navbar-brand {
   line-height: 0.5;
@@ -78,9 +93,14 @@ export default {
 }
 
 .nav-link {
-  color: white;
+  color: #d8cfc7;
   font-size: 14px;
 }
+.nav-link:focus {
+  box-shadow: none;
+  color: white;
+}
+
 @media only screen and (max-width: 768px) {
   .navbar {
     background-color: $Black-Color;
