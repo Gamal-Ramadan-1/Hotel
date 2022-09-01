@@ -102,11 +102,33 @@
               </a>
             </p>
           </div>
-          <div class="col-lg col-sm-12 col-md-6"></div>
+          <div class="col-lg col-sm-12 col-md-6 questions">
+            <h5 class="text-light text-capitalize fw-bold mb-5">
+              have a questions?
+            </h5>
+            <div class="d-flex justify-content-center">
+              <i class="fa-sharp fa-solid fa-map me-3 mt-1"></i>
+              <p>203 Fake St. Mountain View, San Francisco, California, USA</p>
+            </div>
+            <p>
+              <a href="/">
+                <i class="fa-solid fa-phone me-3"></i>
+                +2 392 3929 210
+              </a>
+            </p>
+            <p>
+              <a href="/">
+                <i class="fa-solid fa-paper-plane me-3"></i>
+                info@yourdomain.com
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </div>
-    <div class="copy-right"></div>
+    <div class="copy-right">
+    
+    </div>
   </footer>
 </template>
 <script>
@@ -123,6 +145,7 @@ a {
 .top-footer {
   padding-top: 120px;
   background-color: $Top-Footer;
+  padding-bottom: 70px;
 }
 
 .logo-footer {
@@ -162,7 +185,18 @@ a {
     }
   }
 }
+
+.questions {
+  i {
+    color: $Main-Color;
+  }
+  p,
+  a {
+    color: #bbb;
+  }
+}
 .copy-right {
   background-color: $Copy-Right;
+  
 }
 </style>
