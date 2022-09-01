@@ -2,7 +2,7 @@
   <footer>
     <div class="top-footer">
       <div class="container">
-        <div class="row mb-5 pb-5 gy-5">
+        <div class="row pb-5 gy-5">
           <div class="col-lg col-sm-12 col-md-6 logo-footer">
             <a href="/">
               <h3 class="text-capitalize text-light m-0 fw-bold">unwind</h3>
@@ -22,61 +22,85 @@
             <h5 class="text-light fw-bold">Services</h5>
             <div class="row mt-5">
               <div class="col-lg-6">
-                <a href="/" class="text-capitalize d-block mb-3 fw-bold">
-                  <i class="fa-solid fa-angle-right me-1"></i>
-                  free wifi
-                </a>
-                <a href="/" class="text-capitalize d-block my-3 fw-bold">
-                  <i class="fa-solid fa-angle-right me-1"></i>
-                  easy booking
-                </a>
-                <a href="/" class="text-capitalize d-block my-3 fw-bold">
-                  <i class="fa-solid fa-angle-right me-1"></i>
-                  restaurant
-                </a>
-                <a href="/" class="text-capitalize d-block my-3 fw-bold">
-                  <i class="fa-solid fa-angle-right me-1"></i>
-                  swimming pool
-                </a>
+                <p class="text-capitalize d-block mb-3 fw-bold">
+                  <a href="/">
+                    <i class="fa-solid fa-angle-right me-1"></i>
+                    free wifi
+                  </a>
+                </p>
+                <p class="text-capitalize d-block my-3 fw-bold">
+                  <a href="/">
+                    <i class="fa-solid fa-angle-right me-1"></i>
+                    easy booking
+                  </a>
+                </p>
+                <p class="text-capitalize d-block my-3 fw-bold">
+                  <a href="/">
+                    <i class="fa-solid fa-angle-right me-1"></i>
+                    restaurant
+                  </a>
+                </p>
+                <p class="text-capitalize d-block my-3 fw-bold">
+                  <a href="/">
+                    <i class="fa-solid fa-angle-right me-1"></i>
+                    swimming pool
+                  </a>
+                </p>
               </div>
               <div class="col-lg-6">
-                <a href="/" class="text-capitalize d-block mb-3 fw-bold">
-                  <i class="fa-solid fa-angle-right me-1"></i>
-                  beauty & health
-                </a>
-                <a href="/" class="text-capitalize d-block my-3 fw-bold">
-                  <i class="fa-solid fa-angle-right me-1"></i>
-                  60" Flatscreen TV
-                </a>
-                <a href="/" class="text-capitalize d-block my-3 fw-bold">
-                  <i class="fa-solid fa-angle-right me-1"></i>
-                  Cold Aircondition
-                </a>
-                <a href="/" class="text-capitalize d-block my-3 fw-bold">
-                  <i class="fa-solid fa-angle-right me-1"></i>
-                  Help & Support
-                </a>
+                <p class="text-capitalize d-block mb-3 fw-bold">
+                  <a href="/">
+                    <i class="fa-solid fa-angle-right me-1"></i>
+                    beauty & health
+                  </a>
+                </p>
+                <p class="text-capitalize d-block my-3 fw-bold">
+                  <a href="/">
+                    <i class="fa-solid fa-angle-right me-1"></i>
+                    60" Flatscreen TV
+                  </a>
+                </p>
+                <p class="text-capitalize d-block my-3 fw-bold">
+                  <a href="/">
+                    <i class="fa-solid fa-angle-right me-1"></i>
+                    Cold Aircondition
+                  </a>
+                </p>
+                <p class="text-capitalize d-block my-3 fw-bold">
+                  <a href="/">
+                    <i class="fa-solid fa-angle-right me-1"></i>
+                    Help & Support
+                  </a>
+                </p>
               </div>
             </div>
           </div>
           <div class="col-lg-2 col-sm-12 col-md-6 quick-links">
             <h5 class="text-light text-capitalize fw-bold mb-5">quick links</h5>
-            <a href="/" class="text-capitalize d-block mb-3 fw-bold">
-              <i class="fa-solid fa-angle-right me-1"></i>
-              home
-            </a>
-            <a href="/" class="text-capitalize d-block mb-3 fw-bold">
-              <i class="fa-solid fa-angle-right me-1"></i>
-              about
-            </a>
-            <a href="/" class="text-capitalize d-block mb-3 fw-bold">
-              <i class="fa-solid fa-angle-right me-1"></i>
-              rooms
-            </a>
-            <a href="/" class="text-capitalize d-block mb-3 fw-bold">
-              <i class="fa-solid fa-angle-right me-1"></i>
-              resto & bar
-            </a>
+            <p class="text-capitalize d-block my-3 fw-bold">
+              <a href="/">
+                <i class="fa-solid fa-angle-right me-1"></i>
+                home
+              </a>
+            </p>
+            <p class="text-capitalize d-block my-3 fw-bold">
+              <a href="/">
+                <i class="fa-solid fa-angle-right me-1"></i>
+                about
+              </a>
+            </p>
+            <p class="text-capitalize d-block my-3 fw-bold">
+              <a href="/">
+                <i class="fa-solid fa-angle-right me-1"></i>
+                rooms
+              </a>
+            </p>
+            <p class="text-capitalize d-block my-3 fw-bold">
+              <a href="/">
+                <i class="fa-solid fa-angle-right me-1"></i>
+                resto & bar
+              </a>
+            </p>
           </div>
           <div class="col-lg col-sm-12 col-md-6"></div>
         </div>
@@ -123,14 +147,19 @@ a {
 }
 .services,
 .quick-links {
-  a {
-    color: #bbb;
-    transition: all 0.3s ease-in-out;
-    font-size: 15px;
+  p {
+    a {
+      color: #bbb;
+      transition: all 0.3s ease-in-out;
+      cursor: pointer;
+      font-size: 15px;
+    }
   }
-  a:hover {
-    color: $Main-Color;
-    transition: all 0.3s ease-in-out;
+  p {
+    a:hover {
+      color: $Main-Color;
+      transition: all 0.3s ease-in-out;
+    }
   }
 }
 .copy-right {
