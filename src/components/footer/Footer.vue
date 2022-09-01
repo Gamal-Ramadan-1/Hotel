@@ -127,7 +127,14 @@
       </div>
     </div>
     <div class="copy-right">
-    
+      <div class="col-12 text-center py-5">
+        <p class="m-0">
+          Copyright ©2022 All rights reserved | This template is made with
+          <i class="fa-solid fa-heart"></i>
+          by
+          <span> Colorlib </span>
+        </p>
+      </div>
     </div>
   </footer>
 </template>
@@ -197,6 +204,12 @@ a {
 }
 .copy-right {
   background-color: $Copy-Right;
-  
+  p {
+    font-size: 13px;
+    color: #bbb;
+    span {
+      color: $Main-Color;
+    }
+  }
 }
 </style>
