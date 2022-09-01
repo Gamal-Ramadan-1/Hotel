@@ -2,7 +2,7 @@
   <section class="check-availability">
     <div class="container check-availability-content">
       <div class="row">
-        <div class="col-lg col-md-6 col-sm-12 py-md-5 py-3 ps-5 check-in-date">
+        <div class="col-lg col-md-6 col-sm-12 ps-5 check-in-date">
           <label class="d-block text-uppercase text-light fw-bold"
             >chick-in</label
           >
@@ -15,7 +15,7 @@
             />
           </div>
         </div>
-        <div class="col-lg col-md-6 col-sm-12 check-out-date py-md-5 py-3 ps-5">
+        <div class="col-lg col-md-6 col-sm-12 check-out-date ps-5">
           <label class="d-block text-uppercase text-light fw-bold"
             >chick-out</label
           >
@@ -28,7 +28,7 @@
             />
           </div>
         </div>
-        <div class="col-lg col-md-6 col-sm-12 py-md-5 py-3 ps-5 rooms">
+        <div class="col-lg col-md-6 col-sm-12 ps-5 rooms">
           <label class="text-light fw-bold d-block">rooms</label>
           <select id="rooms" class="d-block">
             <option value="suits">suits</option>
@@ -37,7 +37,7 @@
             <option value="superior room">superior room</option>
           </select>
         </div>
-        <div class="col-lg col-md-6 col-sm-12 py-md-5 py-3 ps-5 guests">
+        <div class="col-lg col-md-6 col-sm-12 ps-5 guests">
           <label class="text-light fw-bold d-block">guests</label>
           <select id="guests" class="d-block">
             <option value="1 person">1 person</option>
@@ -52,7 +52,6 @@
         <a
           class="
             col-lg col-md-12
-            py-lg-5 py-3
             flex-lg-nowrap
             ps-3
             last-part-check-availability
@@ -144,5 +143,75 @@ select:focus-visible {
 input:focus,
 .input:focus-visible {
   outline: none;
+}
+@media (min-width: 320px) {
+  .check-availability {
+    // margin-top: -100px;
+
+    .check-in-date,
+    .check-out-date,
+    .rooms,
+    .guests,
+    .last-part-check-availability {
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+  }
+}
+@media (min-width: 425px) {
+  .check-availability {
+    // margin-top: -100px;
+
+    .check-in-date,
+    .check-out-date,
+    .rooms,
+    .guests,
+    .last-part-check-availability {
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+  }
+}
+@media (min-width: 768px) {
+  .check-availability {
+    // margin-top: -100px;
+
+    .check-in-date,
+    .check-out-date,
+    .rooms,
+    .guests,
+    .last-part-check-availability {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+  }
+}
+@media (min-width: 1024px) {
+  .check-availability {
+    margin-top: -115px;
+
+    .check-in-date,
+    .check-out-date,
+    .rooms,
+    .guests,
+    .last-part-check-availability {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+  }
+}
+@media (min-width: 1440px) {
+  .check-availability {
+    margin-top: -80px;
+
+    .check-in-date,
+    .check-out-date,
+    .rooms,
+    .guests,
+    .last-part-check-availability {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+  }
 }
 </style>

@@ -9,7 +9,7 @@
           <p class="mt-5 pt-5 mb-0">
             ENJOY YOUR WONDERFUL HOLIDAYS WITH A GREAT LUXURY EXPERIENCE!
           </p>
-          <h1 class="display-md-1">Most Relaxing Place</h1>
+          <h1>Most Relaxing Place</h1>
           <div
             class="
               d-flex
@@ -81,7 +81,6 @@ export default {
 .content-clider {
   h1 {
     font-weight: 900;
-    // font-size: 80px;
   }
   p {
     font-size: 14px;
@@ -92,4 +91,19 @@ export default {
   border-radius: 0px;
   font-size: 12px;
 }
+@media (min-width: 425px) {
+  .content-clider {
+    h1 {
+      font-size: 40px;
+    }
+  }
+}
+@media (min-width: 768px) {
+  .content-clider {
+    h1 {
+      font-size: 80px;
+    }
+  }
+}
+
 </style>
