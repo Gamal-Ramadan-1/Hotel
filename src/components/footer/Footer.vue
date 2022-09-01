@@ -13,12 +13,52 @@
               with the necessary regelialia.
             </p>
             <div class="social-media">
-              <i class="fa-brands fa-twitter mx-1"></i>
+              <i class="fa-brands fa-twitter me-1"></i>
               <i class="fa-brands fa-facebook-f mx-1"></i>
               <i class="fa-brands fa-instagram mx-1"></i>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-12 col-md-6"></div>
+          <div class="col-lg-4 col-sm-12 col-md-6 services">
+            <h3 class="text-light">Services</h3>
+            <div class="row mt-lg-5">
+              <div class="col-lg-6">
+                <a href="/" class="text-capitalize d-block mb-3 fw-bold">
+                  <i class="fa-solid fa-angle-right me-lg-1"></i>
+                  free wifi
+                </a>
+                <a href="/" class="text-capitalize d-block my-3 fw-bold">
+                  <i class="fa-solid fa-angle-right me-lg-1"></i>
+                  easy booking
+                </a>
+                <a href="/" class="text-capitalize d-block my-3 fw-bold">
+                  <i class="fa-solid fa-angle-right me-lg-1"></i>
+                  restaurant
+                </a>
+                <a href="/" class="text-capitalize d-block my-3 fw-bold">
+                  <i class="fa-solid fa-angle-right me-lg-1"></i>
+                  swimming pool
+                </a>
+              </div>
+              <div class="col-lg-6">
+                <a href="/" class="text-capitalize d-block mb-3 fw-bold">
+                  <i class="fa-solid fa-angle-right me-lg-1"></i>
+                  beauty & health
+                </a>
+                <a href="/" class="text-capitalize d-block my-3 fw-bold">
+                  <i class="fa-solid fa-angle-right me-lg-1"></i>
+                  60" Flatscreen TV
+                </a>
+                <a href="/" class="text-capitalize d-block my-3 fw-bold">
+                  <i class="fa-solid fa-angle-right me-lg-1"></i>
+                  Cold Aircondition
+                </a>
+                <a href="/" class="text-capitalize d-block my-3 fw-bold">
+                  <i class="fa-solid fa-angle-right me-lg-1"></i>
+                  Help & Support
+                </a>
+              </div>
+            </div>
+          </div>
           <div class="col-lg-2 col-sm-12 col-md-6"></div>
           <div class="col-lg col-sm-12 col-md-6"></div>
         </div>
@@ -61,9 +101,20 @@ footer {
 .social-media {
   i {
     padding: 13px;
-    
+    cursor: pointer;
     color: $Main-Color;
     background-color: #262626;
+  }
+}
+.services {
+  a {
+    color: #bbb;
+    transition: all 0.3s ease-in-out;
+    font-size: 15px;
+  }
+  a:hover {
+    color: $Main-Color;
+    transition: all 0.3s ease-in-out;
   }
 }
 .copy-right {
