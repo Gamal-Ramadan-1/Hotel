@@ -1,13 +1,15 @@
 <template>
-  <section class="slider">
+  <section class="slider" id="slider">
     <div class="overlay"></div>
     <div class="container h-100">
       <div
         class="row h-100 justify-content-center align-items-center text-light"
       >
         <div class="col-lg-12 text-center content-clider">
-          <p class="mt-5 pt-5 mb-0">ENJOY YOUR WONDERFUL HOLIDAYS WITH A GREAT LUXURY EXPERIENCE!</p>
-          <h1>Most Relaxing Place</h1>
+          <p class="mt-5 pt-5 mb-0">
+            ENJOY YOUR WONDERFUL HOLIDAYS WITH A GREAT LUXURY EXPERIENCE!
+          </p>
+          <h1 class="display-md-1">Most Relaxing Place</h1>
           <div
             class="
               d-flex
@@ -79,7 +81,7 @@ export default {
 .content-clider {
   h1 {
     font-weight: 900;
-    font-size: 80px;
+    // font-size: 80px;
   }
   p {
     font-size: 14px;
