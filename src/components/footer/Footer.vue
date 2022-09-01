@@ -19,47 +19,65 @@
             </div>
           </div>
           <div class="col-lg-4 col-sm-12 col-md-6 services">
-            <h3 class="text-light">Services</h3>
-            <div class="row mt-lg-5">
+            <h5 class="text-light fw-bold">Services</h5>
+            <div class="row mt-5">
               <div class="col-lg-6">
                 <a href="/" class="text-capitalize d-block mb-3 fw-bold">
-                  <i class="fa-solid fa-angle-right me-lg-1"></i>
+                  <i class="fa-solid fa-angle-right me-1"></i>
                   free wifi
                 </a>
                 <a href="/" class="text-capitalize d-block my-3 fw-bold">
-                  <i class="fa-solid fa-angle-right me-lg-1"></i>
+                  <i class="fa-solid fa-angle-right me-1"></i>
                   easy booking
                 </a>
                 <a href="/" class="text-capitalize d-block my-3 fw-bold">
-                  <i class="fa-solid fa-angle-right me-lg-1"></i>
+                  <i class="fa-solid fa-angle-right me-1"></i>
                   restaurant
                 </a>
                 <a href="/" class="text-capitalize d-block my-3 fw-bold">
-                  <i class="fa-solid fa-angle-right me-lg-1"></i>
+                  <i class="fa-solid fa-angle-right me-1"></i>
                   swimming pool
                 </a>
               </div>
               <div class="col-lg-6">
                 <a href="/" class="text-capitalize d-block mb-3 fw-bold">
-                  <i class="fa-solid fa-angle-right me-lg-1"></i>
+                  <i class="fa-solid fa-angle-right me-1"></i>
                   beauty & health
                 </a>
                 <a href="/" class="text-capitalize d-block my-3 fw-bold">
-                  <i class="fa-solid fa-angle-right me-lg-1"></i>
+                  <i class="fa-solid fa-angle-right me-1"></i>
                   60" Flatscreen TV
                 </a>
                 <a href="/" class="text-capitalize d-block my-3 fw-bold">
-                  <i class="fa-solid fa-angle-right me-lg-1"></i>
+                  <i class="fa-solid fa-angle-right me-1"></i>
                   Cold Aircondition
                 </a>
                 <a href="/" class="text-capitalize d-block my-3 fw-bold">
-                  <i class="fa-solid fa-angle-right me-lg-1"></i>
+                  <i class="fa-solid fa-angle-right me-1"></i>
                   Help & Support
                 </a>
               </div>
             </div>
           </div>
-          <div class="col-lg-2 col-sm-12 col-md-6"></div>
+          <div class="col-lg-2 col-sm-12 col-md-6 quick-links">
+            <h5 class="text-light text-capitalize fw-bold mb-5">quick links</h5>
+            <a href="/" class="text-capitalize d-block mb-3 fw-bold">
+              <i class="fa-solid fa-angle-right me-1"></i>
+              home
+            </a>
+            <a href="/" class="text-capitalize d-block mb-3 fw-bold">
+              <i class="fa-solid fa-angle-right me-1"></i>
+              about
+            </a>
+            <a href="/" class="text-capitalize d-block mb-3 fw-bold">
+              <i class="fa-solid fa-angle-right me-1"></i>
+              rooms
+            </a>
+            <a href="/" class="text-capitalize d-block mb-3 fw-bold">
+              <i class="fa-solid fa-angle-right me-1"></i>
+              resto & bar
+            </a>
+          </div>
           <div class="col-lg col-sm-12 col-md-6"></div>
         </div>
       </div>
@@ -77,12 +95,9 @@ export default {
 a {
   text-decoration: none;
 }
-footer {
-  height: 80vh;
-}
+
 .top-footer {
   padding-top: 120px;
-  height: 85%;
   background-color: $Top-Footer;
 }
 
@@ -106,7 +121,8 @@ footer {
     background-color: #262626;
   }
 }
-.services {
+.services,
+.quick-links {
   a {
     color: #bbb;
     transition: all 0.3s ease-in-out;
@@ -119,6 +135,5 @@ footer {
 }
 .copy-right {
   background-color: $Copy-Right;
-  height: 15%;
 }
 </style>
