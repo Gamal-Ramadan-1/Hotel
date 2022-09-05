@@ -1,12 +1,7 @@
 <template>
   <section class="featured-rooms">
     <div class="container">
-      <div class="row mb-5 pb-3">
-        <div class="col-12 text-center header-of-featured-rooms">
-          <span class="text-uppercase fw-bold">our rooms</span>
-          <h1 class="text-capitalize">featured rooms</h1>
-        </div>
-      </div>
+      <HeaderSetions :BigHead="BigHead" :SmallHead="SmallHead" />
       <div class="row justify-content-md-center gy-4">
         <div class="col-lg-4 col-md-6 col-sm-12">
           <div class="card text-center">
@@ -103,8 +98,14 @@
   </section>
 </template>
 <script>
+import HeaderSetions from "../Header to all sections/HeaderSetions.vue";
 export default {
   name: "FeaturedRooms",
+  props: {
+    BigHead: String,
+    SmallHead: String,
+  },
+  components: { HeaderSetions },
 };
 </script>
 <style lang="scss" scoped>
@@ -120,16 +121,6 @@ span {
 .featured-rooms {
   padding-top: 70px;
   padding-bottom: 150px;
-
-  .header-of-featured-rooms {
-    span {
-      color: $Main-Color;
-    }
-    h1 {
-      font-size: 50px;
-      font-weight: bolder;
-    }
-  }
 }
 .card {
   border-style: none;

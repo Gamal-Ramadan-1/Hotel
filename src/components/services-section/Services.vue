@@ -1,12 +1,7 @@
 <template>
   <section class="services">
     <div class="container">
-      <div class="row">
-        <div class="col-12 text-center head-of-services my-5">
-          <span>unwind services</span>
-          <h1>Explore Our Hotel Services</h1>
-        </div>
-      </div>
+      <HeaderSetions :BigHead="BigHead" :SmallHead="SmallHead" />
       <div class="row mt-3 mb-5 pb-5 gy-4">
         <div class="col-lg-2 col-md-3 col-sm-12 text-center">
           <ServicesCard title="free wifi" ClassIcon="fa-solid fa-wifi pt-2" />
@@ -44,9 +39,14 @@
 </template>
 <script>
 import ServicesCard from "../services-card/ServicesCard.vue";
+import HeaderSetions from "../Header to all sections/HeaderSetions.vue";
 export default {
   name: "Services",
-  components: { ServicesCard },
+  components: { ServicesCard, HeaderSetions },
+  props: {
+    BigHead: String,
+    SmallHead: String,
+  },
 };
 </script>
 <style lang="scss" scoped>

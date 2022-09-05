@@ -2,9 +2,9 @@
   <Slider />
   <CheckAvailability />
   <AboutUs />
-  <Services />
+  <Services BigHead="Explore Our Hotel Services" SmallHead="unwind services" />
   <HotelForVacation />
-  <FeaturedRooms />
+  <FeaturedRooms BigHead="featured rooms" SmallHead="our rooms" />
   <TakeATour />
 </template>
 
