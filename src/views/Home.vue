@@ -6,6 +6,7 @@
   <HotelForVacation />
   <FeaturedRooms BigHead="featured rooms" SmallHead="our rooms" />
   <TakeATour />
+  <RestoBarSection SmallHead="resto & bar" BigHead="restaurant & bar" />
 </template>
 
 <script>
@@ -16,6 +17,7 @@ import Services from "@/components/services-section/Services.vue";
 import HotelForVacation from "@/components/hotel-for-vacation/HotelForVacation.vue";
 import FeaturedRooms from "@/components/Featured Rooms Section/FeaturedRooms.vue";
 import TakeATour from "@/components/take a tour/TakeATour.vue";
+import RestoBarSection from "@/components/restobar section/RestoBarSection.vue";
 // @ is an alias to /src
 export default {
   name: "HomeView",
@@ -27,6 +29,7 @@ export default {
     HotelForVacation,
     FeaturedRooms,
     TakeATour,
+    RestoBarSection,
   },
 };
 </script>
