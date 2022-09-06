@@ -78,6 +78,7 @@ export default {
 .counter {
   background-color: $Black-Color;
   margin-bottom: 60px;
+  overflow: hidden;
   .happy-guests,
   .rooms,
   .staffs,
@@ -86,6 +87,8 @@ export default {
     padding-top: 80px;
     padding-bottom: 80px;
     z-index: 0;
+    perspective: 600px;
+    animation: jump 2s ease-in-out infinite;
     h1 {
       color: $Main-Color;
       font-weight: 900;
@@ -101,11 +104,22 @@ export default {
   .destination::before {
     content: "";
     position: absolute;
-    height: 100px;
+    height: 130px;
     width: 1px;
-    top: 0px;
+    top: -45px;
     z-index: -1;
     background-color: rgb(60, 59, 59);
+  }
+}
+@keyframes jump {
+  0% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
   }
 }
 </style>
