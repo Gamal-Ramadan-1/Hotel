@@ -7,7 +7,7 @@
   <FeaturedRooms BigHead="featured rooms" SmallHead="our rooms" />
   <TakeATour />
   <RestoBarSection SmallHead="resto & bar" BigHead="restaurant & bar" />
-  <Testimonial />
+  <Testimonial  BigHead="happy guests" SmallHead="testimonial"/>
 </template>
 
 <script>
