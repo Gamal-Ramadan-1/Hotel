@@ -104,22 +104,40 @@ export default {
   .destination::before {
     content: "";
     position: absolute;
-    height: 130px;
     width: 1px;
-    top: -45px;
     z-index: -1;
     background-color: rgb(60, 59, 59);
   }
 }
-@keyframes jump {
-  0% {
-    transform: translateY(-10px);
+@media screen and (min-width: 1020px) {
+  @keyframes jump {
+    0% {
+      transform: translateY(-10px);
+    }
+    50% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
   }
-  50% {
-    transform: translateY(10px);
+  .happy-guests::before,
+  .rooms::before,
+  .staffs::before,
+  .destination::before {
+    content: "";
+    height: 130px;
+    top: -45px;
   }
-  100% {
-    transform: translateY(-10px);
+}
+@media screen and (max-width: 1020px) {
+    .happy-guests::before,
+  .rooms::before,
+  .staffs::before,
+  .destination::before {
+    content: "";
+    height: 100px;
+    top: 0px;
   }
 }
 </style>
