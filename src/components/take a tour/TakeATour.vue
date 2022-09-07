@@ -1,6 +1,6 @@
 <template>
   <section class="take-tour">
-    <div class="overlay"></div>
+    <Overlay />
     <div class="container h-100">
       <div class="row h-100 justify-content-center align-items-center">
         <div class="col-lg-12 text-center text-light fw-bold">
@@ -15,8 +15,10 @@
   </section>
 </template>
 <script>
+import Overlay from "../Overlay/Overlay.vue";
 export default {
   name: "TakeATour",
+  components: { Overlay },
 };
 </script>
 <style lang="scss" scoped>
@@ -50,13 +52,5 @@ a {
   z-index: 0;
   height: 85vh;
   margin-bottom: 50px;
-}
-.overlay {
-  position: absolute;
-  z-index: -1;
-  height: 100%;
-  width: 100%;
-  background-color: rgb(29, 28, 28);
-  opacity: 0.5;
 }
 </style>

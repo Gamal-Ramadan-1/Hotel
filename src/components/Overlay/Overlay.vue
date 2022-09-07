@@ -13,7 +13,7 @@ export default {
   height: 100%;
   position: absolute;
   z-index: -1;
-  opacity: 0.4;
+  opacity: 0.5;
   background-color: $Black-Color;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <section class="slider" id="slider">
-    <div class="overlay"></div>
+    <Overlay />
     <div class="container h-100">
       <div
         class="row h-100 justify-content-center align-items-center text-light"
@@ -47,9 +47,10 @@
 </template>
 <script>
 import Button from "../button-project/button.vue";
+import Overlay from "../Overlay/Overlay.vue";
 export default {
   name: "Slider",
-  components: { Button },
+  components: { Button, Overlay },
 };
 </script>
 <style lang="scss" scoped>
@@ -66,18 +67,6 @@ export default {
   clear: both;
   background-attachment: fixed;
 }
-
-.overlay {
-  position: absolute;
-  background: #222222;
-  opacity: 0.5;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  z-index: -1;
-}
-
 .content-clider {
   h1 {
     font-weight: 900;
@@ -105,5 +94,4 @@ export default {
     }
   }
 }
-
 </style>

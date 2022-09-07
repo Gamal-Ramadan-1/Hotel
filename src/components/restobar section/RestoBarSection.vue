@@ -5,7 +5,7 @@
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 col-sm-12">
           <div class="img-cuisine">
-            <div class="overlay"></div>
+            <Overlay />
             <div
               class="
                 img-cuisine-icon
@@ -180,9 +180,10 @@
 </template>
 <script>
 import HeaderSetions from "../Header to all sections/HeaderSetions.vue";
+import Overlay from "../Overlay/Overlay.vue";
 export default {
   name: "RestoBarSection",
-  components: { HeaderSetions },
+  components: { HeaderSetions, Overlay },
   props: {
     BigHead: String,
     SmallHead: String,
@@ -201,14 +202,6 @@ export default {
     background-repeat: no-repeat;
     position: relative;
     z-index: 0;
-    .overlay {
-      position: absolute;
-      z-index: -1;
-      height: 100%;
-      width: 100%;
-      background-color: $Black-Color;
-      opacity: 0.4;
-    }
     .img-cuisine-icon {
       position: absolute;
       width: 100px;
