@@ -1,7 +1,7 @@
 <template>
   <section class="hotel-leaving">
     <div class="overlay"></div>
-    <div class="container py-5 my-5">
+    <div class="container py-5">
       <div class="row align-items-center">
         <div class="col-md-8 text-capitalize hotel-leaving-text">
           <span class="ms-lg-5 ps-lg-5">find best hotel for leaving</span>
@@ -33,7 +33,6 @@ export default {
   background-repeat: no-repeat;
   clear: both;
   margin-top: 50px;
-  margin-bottom: 50px;
   position: relative;
   z-index: 0;
   span {

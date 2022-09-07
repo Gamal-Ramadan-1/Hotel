@@ -119,8 +119,8 @@ span {
   color: $Main-Color;
 }
 .featured-rooms {
-  padding-top: 70px;
-  padding-bottom: 150px;
+  margin-top: 120px;
+  margin-bottom: 150px;
 }
 .card {
   border-style: none;
