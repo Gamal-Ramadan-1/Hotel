@@ -10,6 +10,7 @@
   <Testimonial BigHead="happy guests" SmallHead="testimonial" />
   <Counter />
   <OurBlog BigHead="recent blog" SmallHead="our blog" />
+  <Gallary />
 </template>
 
 <script>
@@ -24,6 +25,7 @@ import RestoBarSection from "@/components/restobar section/RestoBarSection.vue";
 import Testimonial from "@/components/Testimonial/Testimonial.vue";
 import Counter from "@/components/Counter/Counter.vue";
 import OurBlog from "@/components/Our Blog Sectio/Our-Blog.vue";
+import Gallary from "@/components/Gallary/Gallary.vue";
 // @ is an alias to /src
 export default {
   name: "HomeView",
@@ -39,6 +41,7 @@ export default {
     Testimonial,
     Counter,
     OurBlog,
+    Gallary,
   },
 };
 </script>
