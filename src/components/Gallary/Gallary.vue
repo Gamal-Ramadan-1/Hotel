@@ -1,7 +1,7 @@
 <template>
-  <section class="gallary px-md-2">
+  <section class="gallary">
     <div class="container-fluid">
-      <div class="row gy-5 mt-5 mb-4">
+      <div class="row gy-5 mt-1 mb-4">
         <div class="col-lg col-md-6 col-sm-12">
           <div class="gallary-item-1">
             <div class="overlay"></div>
