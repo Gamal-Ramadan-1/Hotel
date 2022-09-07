@@ -69,7 +69,7 @@ export default {
 @import "@/Scss/main.scss";
 .about-us {
   padding-top: 150px;
-  padding-bottom: 200px;
+  padding-bottom: 150px;
   img {
     border-radius: 10px;
   }
