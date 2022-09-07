@@ -2,7 +2,12 @@
   <section class="Testimonial">
     <div class="container">
       <HeaderSetions :BigHead="BigHead" :SmallHead="SmallHead" />
-      <div class="row owl-carousel owl-theme">
+      <div
+        class="row owl-carousel owl-theme"
+        :dots="false"
+        :autoplay="false"
+        :nav="false"
+      >
         <div class="col item px-4 py-5">
           <div class="info-item-in-testimonial d-flex flex-nowrap">
             <div class="img-item">
@@ -185,41 +190,41 @@ export default {
 </script>
 <style lang="scss" scoped>
 @import "@/Scss/main.scss";
-.Testimonial{
+.Testimonial {
   padding-bottom: 100px;
-  padding-top: 200px;
-.item {
-  background-color: white;
-  .info-item-in-testimonial {
-    .img-item {
-      position: relative;
+  padding-top: 100px;
+  .item {
+    background-color: white;
+    .info-item-in-testimonial {
+      .img-item {
+        position: relative;
 
-      img {
-        width: 70px;
-        height: 70px;
-        border-radius: 50%;
-        z-index: 0;
+        img {
+          width: 70px;
+          height: 70px;
+          border-radius: 50%;
+          z-index: 0;
+        }
+        a {
+          position: absolute;
+          z-index: 1;
+          width: 24px;
+          height: 23px;
+          background-color: #c5a880;
+          bottom: 0px;
+          right: 15px;
+          color: white;
+          text-decoration: none;
+          border-radius: 50%;
+        }
       }
-      a {
-        position: absolute;
-        z-index: 1;
-        width: 24px;
-        height: 23px;
-        background-color: #c5a880;
-        bottom: 0px;
-        right: 15px;
-        color: white;
-        text-decoration: none;
-        border-radius: 50%;
+      span {
+        color: $Main-Color;
       }
     }
-    span {
-      color: $Main-Color;
+    p {
+      color: rgb(106, 103, 103);
     }
   }
-  p {
-    color: rgb(106, 103, 103);
-  }
-}
 }
 </style>
