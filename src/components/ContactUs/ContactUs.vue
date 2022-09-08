@@ -2,7 +2,11 @@
   <section class="contact-us">
     <div class="container">
       <div class="row gy-4">
-        <div class="col-lg-6 p-md-0 order-lg-1 order-md-2 order-sm-2" data-aos="fade-right" data-aos-duration="2000">
+        <div
+          class="col-lg-6 p-md-0 order-lg-1 order-md-2 order-sm-2"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
           <div class="content p-5">
             <h3 class="text-capitalize fw-bold">contact us</h3>
             <p>We're open for any suggestion or just to have a chat</p>
@@ -70,7 +74,11 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-6 p-md-0 order-lg-2 order-md-1 order-sm-1" data-aos="fade-left" data-aos-duration="2000">
+        <div
+          class="col-lg-6 p-md-0 order-lg-2 order-md-1 order-sm-1"
+          data-aos="fade-down"
+          data-aos-duration="2000"
+        >
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d55241.18176587608!2d31.3786368!3d30.077747199999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2seg!4v1662636930551!5m2!1sar!2seg"
             class="w-100"
