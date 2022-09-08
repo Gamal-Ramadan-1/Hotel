@@ -100,7 +100,7 @@ export default {
 @import "@/Scss/main.scss";
 .btn {
   margin-top: 100px;
-  margin-bottom: 70px;
+  margin-bottom: 0px;
 }
 .btn:hover {
   background-color: $Main-Color;

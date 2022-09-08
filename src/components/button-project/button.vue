@@ -1,5 +1,5 @@
 <template>
-  <button class="btn px-4 py-3 text-light">
+  <button class="btn text-light">
     <span
       >{{ title }}
       <i :class="ClassIcon"></i>

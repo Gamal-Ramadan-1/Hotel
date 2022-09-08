@@ -50,7 +50,7 @@
             </p>
             <Button
               title="book your room now"
-              class="text-uppercase fw-bold my-4"
+              class="text-uppercase fw-bold my-5 px-4 py-3"
             />
           </div>
         </div>
