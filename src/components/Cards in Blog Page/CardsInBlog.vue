@@ -2,7 +2,7 @@
   <section class="py-5 my-5">
     <div class="container">
       <div class="row gy-5">
-        <div class="col-lg-3">
+        <div class="col-lg-3" data-aos="fade-up" data-aos-duration="1000">
           <BlogCard
             SrcImg="ximage_1.jpg.pagespeed.ic.qa1-6EPlps.webp"
             Comments="3 comments"
@@ -11,7 +11,7 @@
             TitleCard="Best Hotel Near Beach in Hawaii"
           />
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3" data-aos="fade-up" data-aos-duration="1000">
           <BlogCard
             SrcImg="ximage_2.jpg.pagespeed.ic.sA2CEy2Wig.webp"
             Comments="12 comments"
@@ -20,7 +20,7 @@
             TitleCard="Best Hotel Near Beach in Hawaii"
           />
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3" data-aos="fade-up" data-aos-duration="1000">
           <BlogCard
             SrcImg="ximage_3.jpg.pagespeed.ic.BeWnPT5-TM.webp"
             Comments="23 comments"
@@ -29,7 +29,7 @@
             TitleCard="Best Hotel Near Beach in Hawaii"
           />
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3" data-aos="fade-up" data-aos-duration="1000">
           <BlogCard
             SrcImg="ximage_4.jpg.pagespeed.ic.0xFNn6r7lO.webp"
             Comments="45 comments"
@@ -38,7 +38,7 @@
             TitleCard="Best Hotel Near Beach in Hawaii"
           />
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3" data-aos="fade-up" data-aos-duration="1000">
           <BlogCard
             SrcImg="ximage_5.jpg.pagespeed.ic.-8zdXXqgP_.webp"
             Comments="6 comments"
@@ -47,7 +47,7 @@
             TitleCard="Best Hotel Near Beach in Hawaii"
           />
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3" data-aos="fade-up" data-aos-duration="1000">
           <BlogCard
             SrcImg="ximage_6.jpg.pagespeed.ic.8vxyMrzQOc.webp"
             Comments="35 comments"
@@ -56,7 +56,7 @@
             TitleCard="Best Hotel Near Beach in Hawaii"
           />
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3" data-aos="fade-up" data-aos-duration="1000">
           <BlogCard
             SrcImg="ximage_7.jpg.pagespeed.ic.UFOV5eVWcC.webp"
             Comments="10 comments"
@@ -65,7 +65,7 @@
             TitleCard="Best Hotel Near Beach in Hawaii"
           />
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3" data-aos="fade-up" data-aos-duration="1000">
           <BlogCard
             SrcImg="ximage_8.jpg.pagespeed.ic.ffu86NQJAD.webp"
             Comments="24 comments"
@@ -76,7 +76,11 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-12 text-center">
+        <div
+          class="col-12 text-center"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
           <div class="btn border py-2 px-3 me-md-2 fw-bold">&lt;</div>
           <div class="btn border btn-active py-2 px-3 me-md-2 fw-bold">1</div>
           <div class="btn border py-2 px-3 me-md-2 fw-bold">2</div>
