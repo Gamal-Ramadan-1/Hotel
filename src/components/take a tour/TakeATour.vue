@@ -3,7 +3,7 @@
     <Overlay />
     <div class="container h-100">
       <div class="row h-100 justify-content-center align-items-center">
-        <div class="col-lg-12 text-center text-light fw-bold">
+        <div class="col-lg-12 text-center text-light fw-bold" data-aos="fade-up">
           <span class="text-uppercase">watch our luxurious hotel</span>
           <h1 class="text-capitalize display-1 fw-bold mb-3">take a tour</h1>
           <a href="#">

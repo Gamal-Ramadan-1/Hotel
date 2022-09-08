@@ -2,7 +2,7 @@
   <section class="about-us">
     <div class="container">
       <div class="row gy-4">
-        <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="col-lg-6 col-md-12 col-sm-12" data-aos="fade-up"  data-aos-duration="1000">
           <div class="row gy-4">
             <div class="col-lg-6 col-md-6 col-sm-12 cozy-room">
               <div
@@ -36,7 +36,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-6 col-md-12 col-sm-12 d-flex align-items-center">
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex align-items-center" data-aos="fade-up"  data-aos-duration="2500">
           <div class="about-us-text ms-md-3">
             <span class="text-uppercase d-block mt-3 mb-1 fw-bold">about us</span>
             <h1 class=" fw-bold">

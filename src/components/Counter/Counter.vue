@@ -2,7 +2,11 @@
   <section class="counter px-5">
     <div class="container-fluid">
       <div class="row mx-md-5">
-        <div class="col-lg-3 col-md-6 col-sm-12">
+        <div
+          class="col-lg-3 col-md-6 col-sm-12"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <div class="happy-guests text-center">
             <h1
               data-purecounter-start="0"
@@ -17,7 +21,11 @@
             >
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-12">
+        <div
+          class="col-lg-3 col-md-6 col-sm-12"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <div class="rooms text-center">
             <h1
               data-purecounter-start="0"
@@ -30,7 +38,11 @@
             <span class="d-block text-capitalize fw-bold"># of rooms</span>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-12">
+        <div
+          class="col-lg-3 col-md-6 col-sm-12"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <div class="staffs text-center">
             <h1
               data-purecounter-start="0"
@@ -43,7 +55,11 @@
             <span class="d-block text-capitalize fw-bold"># of Staffs</span>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-12">
+        <div
+          class="col-lg-3 col-md-6 col-sm-12"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <div class="destination text-center">
             <h1
               data-purecounter-start="0"
@@ -131,7 +147,7 @@ export default {
   }
 }
 @media screen and (max-width: 1020px) {
-    .happy-guests::before,
+  .happy-guests::before,
   .rooms::before,
   .staffs::before,
   .destination::before {

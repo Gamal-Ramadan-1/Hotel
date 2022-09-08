@@ -1,9 +1,16 @@
 <template>
   <section class="Testimonial">
     <div class="container">
-      <HeaderSetions :BigHead="BigHead" :SmallHead="SmallHead" />
+      <HeaderSetions
+        :BigHead="BigHead"
+        :SmallHead="SmallHead"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      />
       <div
         class="row owl-carousel owl-theme"
+        data-aos="fade-up"
+        data-aos-duration="1500"
         :dots="false"
         :autoplay="false"
         :nav="false"

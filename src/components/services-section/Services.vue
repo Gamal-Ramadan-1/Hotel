@@ -1,8 +1,13 @@
 <template>
   <section class="services">
     <div class="container">
-      <HeaderSetions :BigHead="BigHead" :SmallHead="SmallHead" />
-      <div class="row mt-3 mb-5 pb-5 gy-4">
+      <HeaderSetions
+        :BigHead="BigHead"
+        :SmallHead="SmallHead"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+      />
+      <div class="row mt-3 mb-5 pb-5 gy-4" data-aos="fade-up" data-aos-duration="1500">
         <div class="col-lg-2 col-md-3 col-sm-12 text-center">
           <ServicesCard title="free wifi" ClassIcon="fa-solid fa-wifi pt-2" />
         </div>

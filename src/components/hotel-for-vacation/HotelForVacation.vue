@@ -2,7 +2,7 @@
   <section class="hotel-leaving">
     <div class="overlay"></div>
     <div class="container py-5">
-      <div class="row align-items-center">
+      <div class="row align-items-center" data-aos="fade-up" data-aos-duration="1500">
         <div class="col-md-8 text-capitalize hotel-leaving-text">
           <span class="ms-lg-5 ps-lg-5">find best hotel for leaving</span>
           <h1 class="text-light fw-bold ms-lg-5 ps-lg-5">

@@ -2,31 +2,31 @@
   <section class="gallary">
     <div class="container-fluid">
       <div class="row gy-5 mt-1 mb-4">
-        <div class="col-lg col-md-6 col-sm-12">
+        <div class="col-lg col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1500">
           <div class="gallary-item-1">
             <div class="overlay"></div>
             <i class="fa-solid fa-magnifying-glass text-light"></i>
           </div>
         </div>
-        <div class="col-lg col-md-6 col-sm-12">
+        <div class="col-lg col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1500">
           <div class="gallary-item-2">
             <div class="overlay"></div>
             <i class="fa-solid fa-magnifying-glass text-light"></i>
           </div>
         </div>
-        <div class="col-lg col-md-6 col-sm-12">
+        <div class="col-lg col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1500">
           <div class="gallary-item-3">
             <div class="overlay"></div>
             <i class="fa-solid fa-magnifying-glass text-light"></i>
           </div>
         </div>
-        <div class="col-lg col-md-6 col-sm-12">
+        <div class="col-lg col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1500">
           <div class="gallary-item-4">
             <div class="overlay"></div>
             <i class="fa-solid fa-magnifying-glass text-light"></i>
           </div>
         </div>
-        <div class="col-lg col-md-6 col-sm-12">
+        <div class="col-lg col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1500">
           <div class="gallary-item-5">
             <div class="overlay"></div>
             <i class="fa-solid fa-magnifying-glass text-light"></i>

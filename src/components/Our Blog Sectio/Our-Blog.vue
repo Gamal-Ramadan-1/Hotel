@@ -1,9 +1,18 @@
 <template>
   <section class="our-blog">
     <div class="container">
-      <HeaderSetions :BigHead="BigHead" :SmallHead="SmallHead" />
+      <HeaderSetions
+        :BigHead="BigHead"
+        :SmallHead="SmallHead"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      />
       <div class="row">
-        <div class="col-lg-3 col-sm-12 col-md-6">
+        <div
+          class="col-lg-3 col-sm-12 col-md-6"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+        >
           <BlogCard
             metadate="dec. 23,2022"
             Comments="3 comments"
@@ -12,7 +21,11 @@
             SrcImg="ximage_1.jpg.pagespeed.ic.qa1-6EPlps.webp"
           />
         </div>
-        <div class="col-lg-3 col-sm-12 col-md-6">
+        <div
+          class="col-lg-3 col-sm-12 col-md-6"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+        >
           <BlogCard
             metadate="nov. 7,2022"
             Comments="12 comments"
@@ -21,7 +34,11 @@
             SrcImg="ximage_2.jpg.pagespeed.ic.sA2CEy2Wig.webp"
           />
         </div>
-        <div class="col-lg-3 col-sm-12 col-md-6">
+        <div
+          class="col-lg-3 col-sm-12 col-md-6"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+        >
           <BlogCard
             metadate="mar. 13,2022"
             Comments="5 comments"
@@ -30,7 +47,11 @@
             SrcImg="ximage_3.jpg.pagespeed.ic.BeWnPT5-TM.webp"
           />
         </div>
-        <div class="col-lg-3 col-sm-12 col-md-6">
+        <div
+          class="col-lg-3 col-sm-12 col-md-6"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+        >
           <BlogCard
             metadate="jun. 20,2022"
             Comments="19 comments"
@@ -57,7 +78,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 @import "@/Scss/main.scss";
-.our-blog{
+.our-blog {
   margin-top: 100px;
   margin-bottom: 100px;
 }

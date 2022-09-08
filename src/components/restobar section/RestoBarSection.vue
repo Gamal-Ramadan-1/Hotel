@@ -1,9 +1,17 @@
 <template>
   <section class="resto-bar">
     <div class="container-fluid">
-      <HeaderSetions :BigHead="BigHead" :SmallHead="SmallHead" />
+      <HeaderSetions
+        :BigHead="BigHead"
+        :SmallHead="SmallHead"
+        data-aos="fade-up"
+      />
       <div class="row gy-4">
-        <div class="col-lg-5 col-md-12 col-sm-12">
+        <div
+          class="col-lg-5 col-md-12 col-sm-12"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <div class="img-cuisine">
             <Overlay />
             <div
@@ -18,9 +26,17 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-7 col-md-12 col-sm-12">
+        <div
+          class="col-lg-7 col-md-12 col-sm-12"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
           <div class="row ms-lg-4 gy-3">
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <div
+              class="col-lg-6 col-md-6 col-sm-12"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               <div
                 class="
                   pricing
@@ -39,7 +55,11 @@
                 <span class="fw-bold">$20.00</span>
               </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <div
+              class="col-lg-6 col-md-6 col-sm-12"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            >
               <div
                 class="
                   pricing
@@ -58,7 +78,11 @@
                 <span class="fw-bold">$49.00</span>
               </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <div
+              class="col-lg-6 col-md-6 col-sm-12"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+            >
               <div
                 class="
                   pricing
@@ -77,7 +101,11 @@
                 <span class="fw-bold">$29.00</span>
               </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <div
+              class="col-lg-6 col-md-6 col-sm-12"
+              data-aos="fade-up"
+              data-aos-duration="1800"
+            >
               <div
                 class="
                   pricing
@@ -96,7 +124,11 @@
                 <span class="fw-bold">$50.00</span>
               </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <div
+              class="col-lg-6 col-md-6 col-sm-12"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
               <div
                 class="
                   pricing
@@ -115,7 +147,11 @@
                 <span class="fw-bold">$34.00</span>
               </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <div
+              class="col-lg-6 col-md-6 col-sm-12"
+              data-aos="fade-up"
+              data-aos-duration="2300"
+            >
               <div
                 class="
                   pricing
@@ -134,7 +170,11 @@
                 <span class="fw-bold">$17.50</span>
               </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <div
+              class="col-lg-6 col-md-6 col-sm-12"
+              data-aos="fade-up"
+              data-aos-duration="2600"
+            >
               <div
                 class="
                   pricing
@@ -153,7 +193,11 @@
                 <span class="fw-bold">$70.00</span>
               </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <div
+              class="col-lg-6 col-md-6 col-sm-12"
+              data-aos="fade-up"
+              data-aos-duration="2900"
+            >
               <div
                 class="
                   pricing
