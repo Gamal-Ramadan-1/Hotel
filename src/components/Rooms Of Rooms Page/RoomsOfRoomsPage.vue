@@ -2,7 +2,7 @@
   <section class="rooms my-5 py-5">
     <div class="container">
       <div class="row gy-5">
-        <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1500">
           <CardRooms
             TitleCard="suite room"
             TextCard="Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
@@ -11,7 +11,7 @@
             SrcImgBottom="xroom-1.jpg.pagespeed.ic.2dbJCSi6kW.webp"
           />
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1500">
           <CardRooms
             TitleCard="family room"
             TextCard="Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
@@ -20,7 +20,7 @@
             SrcImgTop="xroom-2.jpg.pagespeed.ic.qQEQzEZcIj.webp"
           />
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1500">
           <CardRooms
             TitleCard="deluxe room"
             TextCard="Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
@@ -29,7 +29,7 @@
             SrcImgBottom="xroom-3.jpg.pagespeed.ic.-BqmSKjZKz.webp"
           />
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1500">
           <CardRooms
             TitleCard="classic room"
             TextCard="Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
@@ -38,7 +38,7 @@
             SrcImgBottom="xroom-4.jpg.pagespeed.ic.5v9gH2L7pP.webp"
           />
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1500">
           <CardRooms
             TitleCard="superior room"
             TextCard="Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
@@ -47,7 +47,7 @@
             SrcImgTop="xroom-5.jpg.pagespeed.ic.KNT1FgYsC8.webp"
           />
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1500">
           <CardRooms
             TitleCard="luxury room"
             TextCard="Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
@@ -58,7 +58,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-12 text-center">
+        <div class="col-12 text-center" data-aos="fade-up" data-aos-duration="2000">
           <div class="btn border py-2 px-3 me-md-2 fw-bold">&lt;</div>
           <div class="btn border btn-active py-2 px-3 me-md-2 fw-bold">1</div>
           <div class="btn border py-2 px-3 me-md-2 fw-bold">2</div>
