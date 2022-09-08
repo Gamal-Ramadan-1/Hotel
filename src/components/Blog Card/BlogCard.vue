@@ -7,7 +7,11 @@
         <span class="me-3">{{ metadate }}</span>
         <a href="#">{{ Comments }}</a>
       </div>
-      <h4 class="card-title fw-bold mb-3">{{ TitleCard }}</h4>
+      <h4 class="card-title fw-bold mb-3">
+        <a href="#">
+          {{ TitleCard }}
+        </a>
+      </h4>
       <p class="card-text my-4 fw-bold">{{ TextCard }}</p>
     </div>
   </div>
@@ -20,6 +24,9 @@ export default {
 </script>
 <style lang="scss" scoped>
 @import "@/Scss/main.scss";
+a{
+  text-decoration: none;
+}
 .card {
   line-height: 1.7;
   border-style: none;
@@ -37,12 +44,23 @@ export default {
       a {
         text-decoration: none;
         font-size: 13px;
-
         color: $Main-Color;
       }
     }
     .card-text {
       color: rgb(148, 146, 146);
+    }
+  }
+  .card-title {
+    a {
+      transition: all 0.2s ease-in-out;
+      color: black;
+    }
+  }
+  .card-title {
+    a:hover {
+      color: $Main-Color;
+      transition: all 0.2s ease-in-out;
     }
   }
 }
