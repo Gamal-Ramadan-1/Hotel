@@ -19,7 +19,7 @@ import CheckAvailability from "@/components/Check-availability/CheckAvailability
 import AboutUs from "@/components/about-us-section/AboutUs.vue";
 import Services from "@/components/services-section/Services.vue";
 import HotelForVacation from "@/components/hotel-for-vacation/HotelForVacation.vue";
-import FeaturedRooms from "@/components/Featured Rooms Section/FeaturedRooms.vue";
+import FeaturedRooms from "../components/Featured Rooms Home Page/FeaturedRooms.vue";
 import TakeATour from "@/components/take a tour/TakeATour.vue";
 import RestoBarSection from "@/components/restobar section/RestoBarSection.vue";
 import Testimonial from "@/components/Testimonial/Testimonial.vue";
