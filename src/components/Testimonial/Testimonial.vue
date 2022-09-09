@@ -11,8 +11,6 @@
         class="row owl-carousel owl-theme"
         data-aos="fade-up"
         data-aos-duration="1500"
-        :dots="false"
-        :autoplay="false"
       >
         <div class="col item px-4 py-5">
           <div class="info-item-in-testimonial d-flex flex-nowrap">
@@ -158,7 +156,7 @@
 </template>
 <script>
 import { onMounted } from "@vue/runtime-core";
-import carousel from "vue-owl-carousel";
+import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel";
 import HeaderSetions from "../Header to all sections/HeaderSetions.vue";
 export default {
@@ -178,6 +176,10 @@ export default {
         responsive: {
           0: {
             items: 1,
+            dots: true,
+          },
+          600: {
+            items: 2,
             dots: true,
           },
           1000: {

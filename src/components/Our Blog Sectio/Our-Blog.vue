@@ -7,7 +7,7 @@
         data-aos="fade-up"
         data-aos-duration="1000"
       />
-      <div class="row">
+      <div class="row gy-5">
         <div
           class="col-lg-3 col-sm-12 col-md-6"
           data-aos="fade-up"
