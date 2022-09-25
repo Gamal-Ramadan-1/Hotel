@@ -7,157 +7,154 @@
         data-aos="fade-up"
         data-aos-duration="1000"
       />
-      <div
-        class="row owl-carousel owl-theme"
-        data-aos="fade-up"
-        data-aos-duration="1500"
-      >
-        <div class="col item px-4 py-5">
-          <div class="info-item-in-testimonial d-flex flex-nowrap">
-            <div class="img-item">
-              <img
-                src="@/imgs/xperson_1.jpg.pagespeed.ic.a2MnMHMs44.webp"
-                class="me-3"
-              />
-              <a href="#" class="text-center">
-                <i class="fa-solid fa-quote-left"></i>
-              </a>
+      <div class="swiper mySwiper" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="swiper-wrapper mb-5">
+          <div class="swiper-slide px-4 py-5">
+            <div class="info-item-in-testimonial d-flex flex-nowrap">
+              <div class="img-item">
+                <img
+                  src="@/imgs/xperson_1.jpg.pagespeed.ic.a2MnMHMs44.webp"
+                  class="me-3"
+                />
+                <a href="#" class="text-center">
+                  <i class="fa-solid fa-quote-left"></i>
+                </a>
+              </div>
+
+              <div class="text w-100">
+                <h5 class="fw-bold text-capitalize mt-1 mb-3">roger scott</h5>
+                <span class="fw-bold text-uppercase">markiting manager</span>
+              </div>
             </div>
 
-            <div class="text w-100">
-              <h5 class="fw-bold text-capitalize mt-1 mb-3">roger scott</h5>
-              <span class="fw-bold text-uppercase">markiting manager</span>
-            </div>
+            <p class="pt-3 fw-bold">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
           </div>
+          <div class="swiper-slide px-4 py-5">
+            <div class="info-item-in-testimonial d-flex flex-nowrap">
+              <div class="img-item">
+                <img
+                  src="@/imgs/xperson_2.jpg.pagespeed.ic.Xrdu_nPZRp.webp"
+                  class="me-3"
+                />
+                <a href="#" class="text-center">
+                  <i class="fa-solid fa-quote-left"></i>
+                </a>
+              </div>
 
-          <p class="pt-3 fw-bold">
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia, there live the blind texts.
-          </p>
-        </div>
-        <div class="col item px-4 py-5">
-          <div class="info-item-in-testimonial d-flex flex-nowrap">
-            <div class="img-item">
-              <img
-                src="@/imgs/xperson_2.jpg.pagespeed.ic.Xrdu_nPZRp.webp"
-                class="me-3"
-              />
-              <a href="#" class="text-center">
-                <i class="fa-solid fa-quote-left"></i>
-              </a>
+              <div class="text w-100">
+                <h5 class="fw-bold text-capitalize mt-1 mb-3">roger scott</h5>
+                <span class="fw-bold text-uppercase">markiting manager</span>
+              </div>
             </div>
 
-            <div class="text w-100">
-              <h5 class="fw-bold text-capitalize mt-1 mb-3">roger scott</h5>
-              <span class="fw-bold text-uppercase">markiting manager</span>
-            </div>
+            <p class="pt-3 fw-bold">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
           </div>
+          <div class="swiper-slide px-4 py-5">
+            <div class="info-item-in-testimonial d-flex flex-nowrap">
+              <div class="img-item">
+                <img
+                  src="@/imgs/xperson_3.jpg.pagespeed.ic.Cln-jaM1jK.webp"
+                  class="me-3"
+                />
+                <a href="#" class="text-center">
+                  <i class="fa-solid fa-quote-left"></i>
+                </a>
+              </div>
 
-          <p class="pt-3 fw-bold">
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia, there live the blind texts.
-          </p>
-        </div>
-        <div class="col item px-4 py-5">
-          <div class="info-item-in-testimonial d-flex flex-nowrap">
-            <div class="img-item">
-              <img
-                src="@/imgs/xperson_3.jpg.pagespeed.ic.Cln-jaM1jK.webp"
-                class="me-3"
-              />
-              <a href="#" class="text-center">
-                <i class="fa-solid fa-quote-left"></i>
-              </a>
+              <div class="text w-100">
+                <h5 class="fw-bold text-capitalize mt-1 mb-3">roger scott</h5>
+                <span class="fw-bold text-uppercase">markiting manager</span>
+              </div>
             </div>
 
-            <div class="text w-100">
-              <h5 class="fw-bold text-capitalize mt-1 mb-3">roger scott</h5>
-              <span class="fw-bold text-uppercase">markiting manager</span>
-            </div>
+            <p class="pt-3 fw-bold">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
           </div>
+          <div class="swiper-slide px-4 py-5">
+            <div class="info-item-in-testimonial d-flex flex-nowrap">
+              <div class="img-item">
+                <img
+                  src="@/imgs/xperson_1.jpg.pagespeed.ic.a2MnMHMs44.webp"
+                  class="me-3"
+                />
+                <a href="#" class="text-center">
+                  <i class="fa-solid fa-quote-left"></i>
+                </a>
+              </div>
 
-          <p class="pt-3 fw-bold">
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia, there live the blind texts.
-          </p>
-        </div>
-        <div class="col item px-4 py-5">
-          <div class="info-item-in-testimonial d-flex flex-nowrap">
-            <div class="img-item">
-              <img
-                src="@/imgs/xperson_1.jpg.pagespeed.ic.a2MnMHMs44.webp"
-                class="me-3"
-              />
-              <a href="#" class="text-center">
-                <i class="fa-solid fa-quote-left"></i>
-              </a>
+              <div class="text w-100">
+                <h5 class="fw-bold text-capitalize mt-1 mb-3">roger scott</h5>
+                <span class="fw-bold text-uppercase">markiting manager</span>
+              </div>
             </div>
 
-            <div class="text w-100">
-              <h5 class="fw-bold text-capitalize mt-1 mb-3">roger scott</h5>
-              <span class="fw-bold text-uppercase">markiting manager</span>
-            </div>
+            <p class="pt-3 fw-bold">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
           </div>
+          <div class="swiper-slide px-4 py-5">
+            <div class="info-item-in-testimonial d-flex flex-nowrap">
+              <div class="img-item">
+                <img
+                  src="@/imgs/xperson_2.jpg.pagespeed.ic.Xrdu_nPZRp.webp"
+                  class="me-3"
+                />
+                <a href="#" class="text-center">
+                  <i class="fa-solid fa-quote-left"></i>
+                </a>
+              </div>
 
-          <p class="pt-3 fw-bold">
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia, there live the blind texts.
-          </p>
-        </div>
-        <div class="col item px-4 py-5">
-          <div class="info-item-in-testimonial d-flex flex-nowrap">
-            <div class="img-item">
-              <img
-                src="@/imgs/xperson_2.jpg.pagespeed.ic.Xrdu_nPZRp.webp"
-                class="me-3"
-              />
-              <a href="#" class="text-center">
-                <i class="fa-solid fa-quote-left"></i>
-              </a>
+              <div class="text w-100">
+                <h5 class="fw-bold text-capitalize mt-1 mb-3">roger scott</h5>
+                <span class="fw-bold text-uppercase">markiting manager</span>
+              </div>
             </div>
 
-            <div class="text w-100">
-              <h5 class="fw-bold text-capitalize mt-1 mb-3">roger scott</h5>
-              <span class="fw-bold text-uppercase">markiting manager</span>
-            </div>
+            <p class="pt-3 fw-bold">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
           </div>
+          <div class="swiper-slide px-4 py-5">
+            <div class="info-item-in-testimonial d-flex flex-nowrap">
+              <div class="img-item">
+                <img
+                  src="@/imgs/xperson_3.jpg.pagespeed.ic.Cln-jaM1jK.webp"
+                  class="me-3"
+                />
+                <a href="#" class="text-center">
+                  <i class="fa-solid fa-quote-left"></i>
+                </a>
+              </div>
 
-          <p class="pt-3 fw-bold">
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia, there live the blind texts.
-          </p>
-        </div>
-        <div class="col item px-4 py-5">
-          <div class="info-item-in-testimonial d-flex flex-nowrap">
-            <div class="img-item">
-              <img
-                src="@/imgs/xperson_3.jpg.pagespeed.ic.Cln-jaM1jK.webp"
-                class="me-3"
-              />
-              <a href="#" class="text-center">
-                <i class="fa-solid fa-quote-left"></i>
-              </a>
+              <div class="text w-100">
+                <h5 class="fw-bold text-capitalize mt-1 mb-3">roger scott</h5>
+                <span class="fw-bold text-uppercase">markiting manager</span>
+              </div>
             </div>
 
-            <div class="text w-100">
-              <h5 class="fw-bold text-capitalize mt-1 mb-3">roger scott</h5>
-              <span class="fw-bold text-uppercase">markiting manager</span>
-            </div>
+            <p class="pt-3 fw-bold">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
           </div>
-
-          <p class="pt-3 fw-bold">
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia, there live the blind texts.
-          </p>
         </div>
+        <div class="swiper-pagination"></div>
       </div>
     </div>
   </section>
 </template>
 <script>
 import { onMounted } from "@vue/runtime-core";
-import "owl.carousel/dist/assets/owl.carousel.css";
-import "owl.carousel";
 import HeaderSetions from "../Header to all sections/HeaderSetions.vue";
 export default {
   name: "Testimonial",
@@ -168,23 +165,25 @@ export default {
   },
   setup() {
     onMounted(() => {
-      $(".owl-carousel").owlCarousel({
+      let swiper = new Swiper(".mySwiper", {
+        slidesPerGroup: 1,
+        speed: 500,
         loop: true,
-        responsiveClass: true,
-        autoplay: true,
-        margin: 20,
-        responsive: {
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+          dynamicBullets: true,
+        },
+        breakpoints: {
           0: {
-            items: 1,
-            dots: true,
+            slidesPerView: 1,
           },
           600: {
-            items: 2,
-            dots: true,
+            slidesPerView: 2,
           },
           1000: {
-            items: 3,
-            dots: true,
+            slidesPerView: 3,
           },
         },
       });
@@ -195,40 +194,43 @@ export default {
 <style lang="scss" scoped>
 @import "@/Scss/main.scss";
 .Testimonial {
-  padding-bottom: 100px;
+  padding-bottom: 70px;
   padding-top: 100px;
-  .item {
-    background-color: white;
-    .info-item-in-testimonial {
-      .img-item {
-        position: relative;
+  .swiper-slide {
+    background-color: white !important;
+  }
+  .info-item-in-testimonial {
+    .img-item {
+      position: relative;
 
-        img {
-          width: 70px;
-          height: 70px;
-          border-radius: 50%;
-          z-index: 0;
-        }
-        a {
-          position: absolute;
-          z-index: 1;
-          width: 24px;
-          height: 23px;
-          background-color: #c5a880;
-          bottom: 0px;
-          right: 15px;
-          color: white;
-          text-decoration: none;
-          border-radius: 50%;
-        }
+      img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        z-index: 0;
       }
-      span {
-        color: $Main-Color;
+      a {
+        position: absolute;
+        z-index: 1;
+        width: 24px;
+        height: 23px;
+        background-color: #c5a880;
+        bottom: 0px;
+        right: 15px;
+        color: white;
+        text-decoration: none;
+        border-radius: 50%;
       }
     }
-    p {
-      color: rgb(106, 103, 103);
+    span {
+      color: $Main-Color;
     }
   }
+  p {
+    color: rgb(106, 103, 103);
+  }
+}
+.swiper-pagination {
+  position: relative !important;
 }
 </style>
