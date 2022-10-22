@@ -100,19 +100,24 @@
   </section>
 </template>
 <script>
+import { onMounted } from "@vue/runtime-core";
 import Button from "../button-project/button.vue";
-$(document).ready(function () {
-  $(".success-username").hide();
-  $(".success-email").hide();
-  $(".success-subject").hide();
-
-  $(".faild-email").hide();
-  $(".faild-username").hide();
-  $(".faild-subject").hide();
-});
 export default {
   name: "ContactUs",
   components: { Button },
+  setup() {
+    onMounted(() => {
+      $(document).ready(function () {
+        $(".success-username").hide();
+        $(".success-email").hide();
+        $(".success-subject").hide();
+
+        $(".faild-email").hide();
+        $(".faild-username").hide();
+        $(".faild-subject").hide();
+      });
+    });
+  },
   methods: {
     SendEmail() {
       if ($(".username").val() === " " || $(".username").val() === "") {
