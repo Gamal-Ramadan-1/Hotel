@@ -132,7 +132,7 @@
           Copyright ©2022 All rights reserved | This template is made with
           <i class="fa-solid fa-heart"></i>
           by
-          <span> Colorlib </span>
+          <span> Gamal Ramadan </span>
         </p>
       </div>
     </div>
