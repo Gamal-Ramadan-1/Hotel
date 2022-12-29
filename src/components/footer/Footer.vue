@@ -132,7 +132,7 @@
           Copyright ©2022 All rights reserved | This template is made with
           <i class="fa-solid fa-heart"></i>
           by
-          <span> Gamal Ramadan </span>
+          <a href="#"> Gamal Ramadan </a>
         </p>
       </div>
     </div>
@@ -145,6 +145,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 @import "@/Scss/main.scss";
+
 a {
   text-decoration: none;
 }
@@ -162,11 +163,13 @@ a {
       font-weight: bold;
     }
   }
+
   p {
     color: #bbb;
     font-weight: bolder;
   }
 }
+
 .social-media {
   i {
     padding: 13px;
@@ -175,6 +178,7 @@ a {
     background-color: #262626;
   }
 }
+
 .services,
 .quick-links {
   p {
@@ -185,6 +189,7 @@ a {
       font-size: 15px;
     }
   }
+
   p {
     a:hover {
       color: $Main-Color;
@@ -197,17 +202,21 @@ a {
   i {
     color: $Main-Color;
   }
+
   p,
   a {
     color: #bbb;
   }
 }
+
 .copy-right {
   background-color: $Copy-Right;
+
   p {
     font-size: 13px;
     color: #bbb;
-    span {
+
+    a,a:hover {
       color: $Main-Color;
     }
   }
