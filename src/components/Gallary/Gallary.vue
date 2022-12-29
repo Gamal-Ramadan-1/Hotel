@@ -5,31 +5,41 @@
         <div class="col-lg col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1500">
           <div class="gallary-item-1">
             <div class="overlay"></div>
-            <i class="fa-solid fa-magnifying-glass text-light"></i>
+            <a href="#">
+              <i class="fa-solid fa-magnifying-glass text-light"></i>
+            </a>
           </div>
         </div>
         <div class="col-lg col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1500">
           <div class="gallary-item-2">
             <div class="overlay"></div>
-            <i class="fa-solid fa-magnifying-glass text-light"></i>
+            <a href="#">
+              <i class="fa-solid fa-magnifying-glass text-light"></i>
+            </a>
           </div>
         </div>
         <div class="col-lg col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1500">
           <div class="gallary-item-3">
             <div class="overlay"></div>
-            <i class="fa-solid fa-magnifying-glass text-light"></i>
+            <a href="#">
+              <i class="fa-solid fa-magnifying-glass text-light"></i>
+            </a>
           </div>
         </div>
         <div class="col-lg col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1500">
           <div class="gallary-item-4">
             <div class="overlay"></div>
-            <i class="fa-solid fa-magnifying-glass text-light"></i>
+            <a href="#">
+              <i class="fa-solid fa-magnifying-glass text-light"></i>
+            </a>
           </div>
         </div>
         <div class="col-lg col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1500">
           <div class="gallary-item-5">
             <div class="overlay"></div>
-            <i class="fa-solid fa-magnifying-glass text-light"></i>
+            <a href="#">
+              <i class="fa-solid fa-magnifying-glass text-light"></i>
+            </a>
           </div>
         </div>
       </div>
@@ -43,6 +53,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 @import "@/Scss/main.scss";
+
 .gallary-item-1,
 .gallary-item-2,
 .gallary-item-3,
@@ -59,15 +70,19 @@ export default {
   justify-content: center;
   align-items: center;
 }
+
 .gallary-item-2 {
   background-image: url("@/imgs/xgallery-2.jpg.pagespeed.ic.2twc3vj4lT.webp");
 }
+
 .gallary-item-3 {
   background-image: url("@/imgs/xgallery-3.jpg.pagespeed.ic.9RqS9yQsRS.webp");
 }
+
 .gallary-item-4 {
   background-image: url("@/imgs/xgallery-4.jpg.pagespeed.ic.v2cKBLN11M.webp");
 }
+
 .gallary-item-5 {
   background-image: url("@/imgs/xgallery-5.jpg.pagespeed.ic.oBRREtuRDY.webp");
 }
@@ -83,6 +98,7 @@ export default {
   z-index: -1;
   transition: all 0.2s ease-in-out;
 }
+
 i {
   background-color: $Main-Color;
   opacity: 0;
@@ -90,6 +106,7 @@ i {
   padding: 12px;
   transition: all 0.2s ease-in-out;
 }
+
 .gallary-item-1:hover,
 .gallary-item-2:hover,
 .gallary-item-3:hover,
@@ -100,6 +117,7 @@ i {
   .overlay {
     opacity: 0.4;
   }
+
   i {
     opacity: 1;
   }
