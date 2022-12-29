@@ -1,5 +1,7 @@
 <template>
-  <div id="up-to-top" @click="toTop()" v-show="scY > 200">TOP</div>
+  <Transition name="fade">
+    <div id="up-to-top" @click="toTop()" v-show="scY > 200">TOP</div>
+  </Transition>
 </template>
 <script>
 export default {
@@ -23,6 +25,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 @import "@/Scss/main.scss";
+
 #up-to-top {
   position: fixed;
   z-index: 1000;
@@ -35,8 +38,19 @@ export default {
   transition: all 0.3s ease-in-out;
   color: white;
 }
+
 #up-to-top:hover {
   color: black;
   transition: all 0.3s ease-in-out;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
 }
 </style>
