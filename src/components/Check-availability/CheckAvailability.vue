@@ -3,29 +3,17 @@
     <div class="container check-availability-content">
       <div class="row">
         <div class="col-lg col-md-6 col-sm-12 ps-5 check-in-date">
-          <label class="d-block text-uppercase text-light fw-bold"
-            >chick-in</label
-          >
+          <label class="d-block text-uppercase text-light fw-bold">chick-in</label>
           <div class="d-flex align-items-center">
             <i class="fa-solid fa-calendar-days d-inline-block me-2"></i>
-            <input
-              type="text"
-              class="d-inline-block"
-              placeholder="Check-In-Date"
-            />
+            <input type="text" class="d-inline-block" placeholder="Check-In-Date" name="daterange" />
           </div>
         </div>
         <div class="col-lg col-md-6 col-sm-12 check-out-date ps-5">
-          <label class="d-block text-uppercase text-light fw-bold"
-            >chick-out</label
-          >
+          <label class="d-block text-uppercase text-light fw-bold">chick-out</label>
           <div class="d-flex align-items-center">
             <i class="fa-solid fa-calendar-days d-inline-block me-2"></i>
-            <input
-              type="text"
-              class="d-inline-block"
-              placeholder="Check-Out-Date"
-            />
+            <input type="text" class="d-inline-block" placeholder="Check-Out-Date" name="daterange" />
           </div>
         </div>
         <div class="col-lg col-md-6 col-sm-12 ps-5 rooms">
@@ -49,17 +37,14 @@
             <option value="10+ person">10+ person</option>
           </select>
         </div>
-        <a
-          class="
+        <a class="
             col-lg col-md-12
             flex-lg-nowrap
             ps-3
             last-part-check-availability
             text-center text-light text-uppercase
             fw-bold
-          "
-          href="#"
-        >
+          " href="#">
           <h4>
             check
             <span class="d-lg-block"> availability </span>
@@ -73,17 +58,25 @@
 export default {
   name: "CheckAvailability",
 };
+$().ready(function () {
+  $('input[name="daterange"]').daterangepicker({
+    singleDatePicker: true,
+  })
+})
 </script>
 <style lang="scss" scoped>
 @import "@/Scss/main.scss";
+
 a {
   text-decoration: none;
 }
+
 .check-availability {
   position: relative;
   margin-bottom: 20px;
   margin-top: -80px;
 }
+
 .check-availability-content {
   background-color: $Black-Color;
 }
@@ -98,9 +91,11 @@ a {
     color: #656565;
     text-transform: uppercase;
   }
+
   i {
     color: #656565;
   }
+
   input,
   select {
     background-color: transparent;
@@ -117,16 +112,19 @@ a {
       align-items: center;
     }
   }
+
   ::placeholder {
     color: #656565;
   }
 }
+
 select:focus,
 input:focus,
 select:focus-visible {
   box-shadow: none;
   border-color: transparent;
 }
+
 .guests {
   span {
     font-size: 25px;
@@ -135,15 +133,18 @@ select:focus-visible {
 
 .last-part-check-availability {
   background-color: $Main-Color;
+
   h4 {
     font-size: 15px;
     font-weight: bolder;
   }
 }
+
 input:focus,
 .input:focus-visible {
   outline: none;
 }
+
 @media (min-width: 320px) {
   .check-availability {
     // margin-top: -100px;
@@ -158,6 +159,7 @@ input:focus,
     }
   }
 }
+
 @media (min-width: 425px) {
   .check-availability {
     // margin-top: -100px;
@@ -172,6 +174,7 @@ input:focus,
     }
   }
 }
+
 @media (min-width: 768px) {
   .check-availability {
     // margin-top: -100px;
@@ -186,6 +189,7 @@ input:focus,
     }
   }
 }
+
 @media (min-width: 1024px) {
   .check-availability {
     margin-top: -115px;
@@ -200,6 +204,7 @@ input:focus,
     }
   }
 }
+
 @media (min-width: 1440px) {
   .check-availability {
     margin-top: -80px;
