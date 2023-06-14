@@ -58,11 +58,11 @@
 export default {
   name: "CheckAvailability",
 };
-$().ready(function () {
-  $('input[name="daterange"]').daterangepicker({
-    singleDatePicker: true,
-  })
-})
+// $().ready(function () {
+//   $('input[name="daterange"]').daterangepicker({
+//     singleDatePicker: true,
+//   })
+// })
 </script>
 <style lang="scss" scoped>
 @import "@/Scss/main.scss";
